@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<!--
+	Author Name: Albino
+-->
+<head>
+	<meta charset="utf-8" />
+	<title>Albino's Blueprint Validator</title>
+	<link href="css.css" rel="stylesheet" />
+	<script src='editor.js'></script>
+</head>
+<body>
+	<div id='pagewrapper'>
+		<header>
+			<h1>Albino's Blueprint Validator</h1>
+			<a href="https://github.com/albinoonline/CommanderDraw">Browse on Github</a>|<a href="https://reddit.com/user/albinocreeper">u/albinocreeper on reddit</a>
+		</header>
+		<div id="error"></div>
+		
+		
+		<p>Input deck size, and the pool size of the cards you want to draw to get changed of getting that card.</p>
+		<label for="deckSize">Size of Deck</label><input id="deckSize" type="number" step="1" value="99" min="1"/><br />
+		<label for="desired">Pool Size</label><input id="desired" type="number" step="1" value="8" min="1" max="98" /><br />
+		<label for="customDraw">custom drawn count:</label><input id="customDraw" type="number" step="1" value="12" min="1" max="98" /><br />
+		
+		<div id="help">Change a value!</div>
+		</section>
+	</div>
+</body>
+</html>
